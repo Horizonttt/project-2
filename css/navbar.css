@@ -1,0 +1,60 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    background-color: black;
+}
+
+.r_nav{
+    width: 100%;
+    min-height: 90px;
+    background-color: red;
+    float: left;
+}
+
+.logo{
+    width: 20%;
+    min-height: inherit;
+    background-color: red;
+    float: left;
+}
+.menu{
+    width: 80%;
+    min-height: inherit;
+    background-color: red;
+    float: left;
+
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+
+.logo img{
+float: left;
+width: 100%;
+min-height: 90px;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li {
+list-style-type: none;
+float: left;
+padding: 55px;
+box-sizing: border-box;
+margin: 0px 10px;
+border: 2px solid red;
+font-size: 22px;
+border-bottom: 2px solid transparent red;
+transition: 0.5s;
+}
+
+
+.menu ul li:hover {
+    color: yellow;
+    cursor: pointer;
+    border-bottom: 5px solid yellow;
+    border-top: 5px solid yellow;
+}
+
